@@ -6,5 +6,5 @@ class Car:
         print(' This car is a ' + self.brand + ' age ' + str(self.age))
     def modifyAge(self, newAge):
         self.age=newAge
-        print('The new age of the car', self.brand,  'is', self.age)
+        print('The new age of the car', self.brand,  'is', str(self.age))
         
